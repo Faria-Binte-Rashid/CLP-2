@@ -1,7 +1,7 @@
 import csv
 with open('sales_data.csv', mode='r') as file:
     reader = csv.reader(file)
-    next(reader)  # Skip the header row
+    next(reader)  
 
     revenue_per_product = {}
 
